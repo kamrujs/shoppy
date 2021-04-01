@@ -1,0 +1,647 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.clr {
+    clear: both;
+}
+
+/* =========================  header css start  ========================= */
+
+header {
+    padding: 50px 0 30px;
+    border-bottom: 1px solid #444444;
+}
+
+header .row {
+    justify-content: space-between;
+}
+
+header .search {
+    margin-top: 13px;
+}
+
+header .search form input {
+    width: 200px;
+    text-align: center;
+    border: none;
+    background: #0000000d;
+    border-radius: 5px 0 0 5px;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: .5s;
+    color: #414141;
+    border: 1px solid #464646;
+    border-right: none;
+}
+
+/* 
+header .search form input:focus button {
+    display: none;
+} */
+
+header .search form button {
+    text-align: center;
+    border: none;
+    background: #0000000d;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 5px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: .5s;
+    color: #414141;
+    margin-left: -5px;
+    border: 1px solid #464646;
+    border-left: 1px solid #e0e0e0;
+}
+
+header .logo {
+    text-align: center;
+}
+
+header .user_cart {
+    text-align: end;
+    margin-top: 13px;
+}
+
+header .user_cart a i {
+    color: #151515;
+    margin-left: 10px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+header .user_cart a i:hover {
+    color: #8ED1B7;
+}
+
+/* =========================  header css start  ========================= */
+
+
+/* =========================  NAV css start  ========================= */
+nav {
+    padding-bottom: 15px !important;
+}
+
+nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #45505e;
+    margin: 0 15px;
+    position: relative;
+    transition: .3s !important;
+}
+
+nav ul li a:hover {
+    color: #8ed1b7;
+}
+
+nav ul li .nav-active {
+    color: #8ed1b7;
+}
+
+nav ul li .nav-active::after {
+    width: 100%;
+}
+
+nav ul li a::after {
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    background: #8ed1b7;
+    transform: translateX(-50%);
+    transition: .3s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+
+/* =========================  NAV css start  ========================= */
+
+
+/* =========================  NAV css start  ========================= */
+
+#banner .banner_item {
+    background: url(../images/banner1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner .banner2 {
+    background: url(../images/banner2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner .banner3 {
+    background: url(../images/banner3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner .banner_item .overlay {
+    background: rgba(37, 34, 34, 0.27);
+    width: 100%;
+    height: 100%;
+    padding: 150px;
+    padding-bottom: 140px;
+    padding-left: 330px;
+}
+
+#banner .overlay h4 {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    margin-bottom: -10px;
+}
+
+#banner .overlay h4 span {
+    font-size: 73px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+    color: #fff;
+}
+
+#banner .overlay h2 {
+    font-size: 72px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#banner .overlay p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    display: inline-block;
+
+}
+
+#banner .overlay a {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: underline !important;
+    text-transform: uppercase;
+    display: table;
+    transition: .3s;
+}
+
+#banner .overlay a:hover {
+    color: #8ed1b7;
+}
+
+#banner .banner_slider ul {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#banner .banner_slider ul li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+#banner .banner_slider ul li button {
+    font-size: 0;
+    width: 20px;
+    height: 4px;
+    border: none;
+    background: #ff5454;
+    transition: .5s;
+}
+
+#banner .banner_slider ul .slick-active button {
+    width: 40px;
+}
+
+/* =========================  Banner css end  ========================= */
+
+
+/* =========================  Product css start  ========================= */
+
+#product {
+    padding: 60px 0;
+}
+
+
+#product .porduct_menu {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+}
+
+#product .porduct_menu button {
+    margin-left: 30px;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    color: #45505e;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#product .porduct_menu .mixitup-control-active {
+    color: #8ed1b7;
+}
+
+#product .producr_item {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#product .producr_item .item {
+    width: 300px;
+    background: #fff;
+    margin-left: 24px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.21);
+}
+
+#product .producr_item .item .top {
+    display: flex;
+}
+
+#product .producr_item .item .icon {
+    width: 25%;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+#product .producr_item .item .icon a i {
+    display: block;
+    margin-top: 20px;
+    color: #555555;
+    transition: .3s;
+}
+
+#product .producr_item .item .icon a i:hover {
+    color: #8ed1b7;
+}
+
+#product .producr_item .item .img {
+    width: 75%;
+    height: 270px;
+}
+
+#product .producr_item .item .img img {
+    width: 100%;
+    height: 100%;
+}
+
+#product .producr_item .item h4 {
+    margin-top: 45px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0e0f10;
+}
+
+#product .producr_item .item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8ed1b7;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#product .producr_item .item p span {
+    color: #0e0f10;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+#product .producr_item .item p::before {
+    width: 38px;
+    height: 1px;
+    background: #0e0f10;
+    position: absolute;
+    top: 10px;
+    left: 35%;
+    content: "";
+}
+
+#product .producr_item .item p::after {
+    width: 225px;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+}
+
+#product .producr_item .item .cart a {
+    margin-bottom: 30px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0e0f10;
+}
+
+/* =========================  Product css end  ========================= */
+
+
+/* =========================  feature css Start  ========================= */
+#feature {
+    position: relative;
+}
+
+#feature .green_bg {
+    width: 100%;
+    background: #8ed1b7;
+    position: absolute;
+    left: 50%;
+}
+
+#feature .green_bg h2 {
+    font-size: 160px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #86c5ac;
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+
+#feature .green_bg img {
+    margin-top: 150px;
+    margin-left: 320px;
+    margin-bottom: 58px;
+}
+
+#feature .green_bg .ditels {
+    position: absolute;
+    top: 40%;
+    left: 6%;
+}
+
+#feature .green_bg .ditels .head {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#feature .green_bg .ditels h4 {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+    background: #8ed1b7;
+    margin-bottom: 50px;
+    display: inline-block;
+    padding: 5px 0;
+    padding-right: 10px;
+}
+
+#feature .green_bg .ditels .deta {
+    width: 450px;
+    background: #8ed1b7;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#feature .green_bg .ditels a {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: underline !important;
+    text-transform: uppercase;
+    display: table;
+    transition: .3s;
+}
+
+#feature .posi {
+    position: relative;
+    width: 100%;
+    height: 722px;
+}
+
+#feature .posi .circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: #e7a8c6;
+    position: absolute;
+    bottom: 40px;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+}
+
+
+#feature .posi .circle h4 {
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+#feature .posi .circle h4 span {
+    font-size: 16px;
+    text-decoration: line-through;
+    display: block;
+}
+
+#feature .posi p {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+    letter-spacing: 20px;
+    background: url(../images/woodtext_shape.png);
+    text-align: center;
+    padding: 20px 0;
+    transform: rotate(-90deg) translateX(50%);
+    position: absolute;
+    right: -40%;
+    width: 100%;
+    bottom: 10px;
+}
+
+/* =========================  feature css end  ========================= */
+
+
+/* =========================  feature css end  ========================= */
+
+#facilities {
+    background: #1d1e24;
+}
+
+#facilities .main {
+    display: flex;
+}
+
+#facilities .item {
+    text-align: center;
+    width: 25%;
+    padding: 50px 0;
+}
+
+#facilities .item:nth-child(even) {
+    background: #25262c;
+}
+
+#facilities .item .img {
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+#facilities .item h4 {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#facilities .item p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #767676;
+}
+
+/* =========================  feature css end  ========================= */
+
+
+/* =========================  feature css end  ========================= */
+
+footer {
+    padding-top: 65px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 20px;
+}
+
+footer .logo p {
+    width: 320px;
+    margin-bottom: 35px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7b7c85;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+footer .logo a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7b7c85;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s;
+}
+
+footer .logo a:hover {
+    color: #8ED1B7;
+}
+
+footer h2 {
+    font-size: 18px;
+    color: #1d1e24;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 40px;
+}
+
+footer .im_link .link {
+    display: flex;
+}
+
+footer .im_link .link ul {
+    width: 50%;
+}
+
+footer .im_link .link ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7b7c85;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .im_link .link ul li a:hover {
+    color: #8ED1B7;
+}
+
+footer .album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .album .item {
+    width: 90px;
+    height: 85px;
+    background: salmon;
+    margin-bottom: 20px;
+}
+
+#pay p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7b7c85;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 23px;
+}
+
+/* =========================  feature css end  ========================= */
