@@ -1,0 +1,171 @@
+@media (min-width:320px) and (max-width:575px) {
+    header {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header .logo {
+        margin: 20px 0 8px;
+    }
+
+    header .user_cart {
+        margin-top: 13px;
+        position: absolute;
+        top: 13%;
+        right: 15px;
+    }
+
+    nav .navbar-toggler {
+        color: #8ed1b7;
+    }
+
+    nav .collapsed {
+        color: #000 !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    /* ---------nav */
+    nav button {
+        position: absolute;
+        top: -78px;
+        left: 0;
+    }
+
+    nav .navbar-collapse ul li a {
+        display: inline-block;
+    }
+
+    nav .navbar-collapse ul li a:hover::after {
+        width: 135%;
+    }
+
+    /* ---------nav */
+
+    /* ---------banner */
+    #banner .banner_item .overlay {
+        padding: 35px 0 40px;
+    }
+
+    #banner .overlay h4 {
+        font-size: 15px;
+    }
+
+    #banner .overlay h4 span {
+        font-size: 50px;
+    }
+
+    #banner .overlay h2 {
+        font-size: 45px;
+    }
+
+    #banner .overlay a {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    #banner .banner_slider ul {
+        bottom: 8px;
+    }
+
+    /* ---------banner */
+
+
+    /* ---------product */
+    #product {
+        padding: 15px 0;
+        height: 605px;
+        overflow: hidden;
+    }
+
+    #product .producr_item .item {
+        margin: 0;
+    }
+
+    #product .producr_item .item .img {
+        width: 75%;
+        height: auto;
+    }
+
+    #product .porduct_menu button {
+        margin-left: 10px;
+    }
+
+    #product .producr_item .item {
+        width: 150px;
+        margin: 6px;
+    }
+
+    #product .producr_item .item .icon {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+
+    #product .producr_item .item h4 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    #product .producr_item .item p {
+        margin-bottom: 10px;
+    }
+
+    #product .producr_item .item p::after {
+        width: -moz-available;
+        bottom: -7px;
+    }
+
+    #product .producr_item .item .cart a {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    /* ---------product */
+    /* ---------feature */
+    #feature {
+        position: relative;
+        display: none;
+    }
+
+    #facilities .item {
+        padding: 20px;
+    }
+
+    /* ---------feature */
+
+    /* ---------feature */
+    footer .logo {
+        text-align: center;
+    }
+
+    footer .logo p {
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    footer h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* ---------feature */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
